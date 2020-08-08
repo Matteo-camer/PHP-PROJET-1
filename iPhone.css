@@ -1,0 +1,51 @@
+.ios-coc{
+  background: black;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 340px;
+  border-radius: 15%;
+  animation: colorTransition 5s linear infinite;
+}
+
+.ios-content{
+  margin: 40px 11px;
+  height: 220px
+}
+.ios-screen{
+  height: 220px;
+  background: white;
+}
+.ios-button{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  position: absolute;
+  left: 42%;
+  top: 85%;
+}
+.ios-button:hover{
+  border: 1px solid red;
+}
+
+
+@keyframes colorTransition {
+  0%{
+    background: black;
+  },
+  25%{
+    background: whitesmoke;
+  }
+  50%{
+    background: blue;
+  }
+  75%{
+    background: yellow;
+  }
+  100%{
+    background: black;
+  }
+}
